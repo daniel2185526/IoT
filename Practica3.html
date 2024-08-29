@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios a la oficina de reparto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Enlace a Bootstrap -->
+    <style>
+        /* Estilos embebidos en el HTML */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e1e0df; /* Color para toda la página */
+        }
+
+        h1 {
+            color: rgb(17, 17, 94);
+            text-align: center; /* Centra el texto */
+            text-transform: uppercase; /* Convierte el texto a mayúsculas */
+        }
+
+        
+
+        /* Nuevo estilo para permitir el desplazamiento horizontal del iframe */
+        .iframe-container {
+            width: 100%;
+            overflow-x: auto; /* Permite desplazamiento horizontal */
+        }
+        .iframe-container iframe {
+            width: 250%; /* Ajusta el ancho del iframe para ser 2.5 veces más ancho */
+        }
+    </style>
+</head>
+<body>
+    <h1>Órdenes recibidas para el despacho</h1>
+    <img src="https://d2yoo3qu6vrk5d.cloudfront.net/images/20240119130001/nevera-inteligente-1024x1024.jpg" alt="Descripción de la imagen" class="img-fluid d-block mx-auto">
+
+    <!-- Nuevo div para el texto estilizado -->
+    
+
+    <!-- Aquí puedes insertar cualquier otro contenido que quieras antes del iframe -->
+
+    <!-- Contenedor que permite desplazamiento horizontal para el iframe -->
+    <div class="container mt-4 iframe-container">
+        <iframe src="https://docs.google.com/spreadsheets/d/1kCsHcEgq18JyHVL60S1l7K0kFJFkt4lLzLQHTo8m7aU/pubhtml" height="500" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Enlace a los scripts de Bootstrap (opcional si usas funciones interactivas de Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
