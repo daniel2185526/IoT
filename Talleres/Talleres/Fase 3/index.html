@@ -1,0 +1,78 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios a la oficina de reparto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <img src="https://elfuturoessensacional.com/wp-content/uploads/2024/01/pexels-nevera-samsung.jpg" alt="Nevera Samsung" width="50%" class="center">
+    <h1>Órdenes recibidas para el despacho</h1>
+    <p>¡Bienvenido a nuestro servicio de despacho de productos!</p>
+    <p>Aquí podrás encontrar todas las órdenes recibidas y en proceso de despacho.</p>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Número de orden</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Leche</td>
+                <td>5 litros</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pan</td>
+                <td>3 unidades</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Huevos</td>
+                <td>12 unidades</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr class="highlight">
+                <th>Número</th>
+                <th>Fecha</th>
+                <th>Nevera</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Pesos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2023-09-27 6:16:38</td>
+                <td>neveraChachones</td>
+                <td>huevos</td>
+                <td>10</td>
+                <td>30000</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><a href="https://docs.google.com/spreadsheets/d/1ZKHV18j5wkqDfkEV7noktBkY8EUTPS7sey-HvSONGvY/edit#gid=0">Haz click aquí para ver tabla de datos</a></p>
+</body>
+</html>
+
+CSS:
+
+center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlight {
+    background-color: orange;
+}
